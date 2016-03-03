@@ -5,7 +5,6 @@ Basic python dev framework with virtualenv and virtualenvwrapper
 - [VirtualBox](http://www.virtualbox.org/)
 - [VirtualBox Extension Pack](https://www.virtualbox.org/wiki/Downloads)
 - [Vagrant](http://www.vagrantup.com/)
-- Vagrant puppet plugin
 
 # Usage
 
@@ -19,7 +18,7 @@ Assuming you have met the above requirements to provision a new Vagrant VM:
 
 The above will build a VM running Ubuntu with the following installed and configured:
 
-    1. Puppet (for provisioning)
+    1. Ansible (for provisioning)
     2. Git
     3. Python
     4. virtualenv
